@@ -1,0 +1,47 @@
+
+ GTK+ 3.6.4 Build system v2 (win64) - by Tarnyko <tarnyko@tarnyko.net>
+ ----------------------------------
+
+ (IMPORTANT : this build environment can only be used on a
+  Win64 host OS for now. Should be corrected in the future)
+
+1a) Run "1a_MSYS.bat" to install MSYS. Keep the default path
+    ("C:\msys\1.0").
+
+    Answer "y" then "n" to the postinstall script.
+
+1b) Run "1b_MSYS-perl.bat" to install MSYS-perl.
+
+1c) Run "1c_MSYS-perl-XMLSimple.bat" to install XML::Simple
+    for MSYS-perl.
+
+1d) Run "1d_MSYS-grep.bat" to update MSYS-grep.
+
+2a) Run "2a_MinGW64.bat" to install MinGW64.
+
+2b) Run "2b_MinGW64-intltool.bat" to install intltool for MinGW.
+
+3) Run "3_Python.bat" to install Python. Keep the default path
+    ("C:\Python25").
+
+4) Run "4_MSYS-initbuild" to prepare MSYS for the builds.
+
+ Finally... go the "libs" folder, copy its whole content to the
+"c:\msys\1.0\home\<USER>" folder (where <USER> is your Windows
+username ; if it doesn't exist, run MSYS once before), open MSYS
+(desktop link or "c:\msys\1.0\msys.bat") and run the scripts by
+numerical order, this way :
+
+./1_zlib.bat
+./2_xz.bat
+./3_libxml2.bat
+./11_libffi.bat
+ ...
+./74_gnome-icon-theme-symbolic.bat
+
+ or you can build everything with :
+
+./BUILD_ALL.bat
+
+ (PS : Resulting binaries will be in "c:\msys\1.0\opt",
+       compilation log files in "C:\msys\1.0\home\<USER>\logs")
