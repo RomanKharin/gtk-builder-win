@@ -13,7 +13,7 @@ cd glib-$MODVER
 
 echo To avoid using pkg-config...
 
-export LIBFFI_CFLAGS=-I"$PREFIX/lib/libffi-3.0.12/include"
+export LIBFFI_CFLAGS=-I"$PREFIX/lib/libffi-3.1/include"
 export LIBFFI_LIBS=-lffi
 
 echo save current CFLAGS var, we will regenerate it later...
