@@ -1,4 +1,4 @@
-MODVER=5.0.4
+MODVER=5.0.5
 
 mkdir -p 2_xz
 cd 2_xz
