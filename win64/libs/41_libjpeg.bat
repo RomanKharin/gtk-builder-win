@@ -1,4 +1,4 @@
-MODVER=9
+MODVER=9a
 
 mkdir -p 41_libjpeg
 cd 41_libjpeg
