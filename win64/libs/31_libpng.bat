@@ -1,8 +1,8 @@
-MODVER=1.5.14
+MODVER=1.6.12
 
 mkdir -p 31_libpng
 cd 31_libpng
-test -f libpng-$MODVER.tar.xz || wget http://sourceforge.net/projects/libpng/files/libpng15/older-releases/$MODVER/libpng-$MODVER.tar.xz
+test -f libpng-$MODVER.tar.xz || wget http://sourceforge.net/projects/libpng/files/libpng16/$MODVER/libpng-$MODVER.tar.xz
 xz -d -k -f libpng-$MODVER.tar.xz
 tar -xf libpng-$MODVER.tar
 cd libpng-$MODVER
