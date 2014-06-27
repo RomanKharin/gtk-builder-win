@@ -1,4 +1,4 @@
-MODVER=0.26.0
+MODVER=0.32.4
 
 mkdir -p 34_pixman
 cd 34_pixman
