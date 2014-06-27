@@ -1,4 +1,4 @@
-MODVER=2.10.2
+MODVER=2.11.1
 
 mkdir -p 33_libfontconfig
 cd 33_libfontconfig
