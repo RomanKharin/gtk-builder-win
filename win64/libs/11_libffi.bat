@@ -1,4 +1,4 @@
-MODVER=3.0.12
+MODVER=3.1
 
 mkdir -p 11_libffi
 cd 11_libffi
