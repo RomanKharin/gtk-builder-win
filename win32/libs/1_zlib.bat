@@ -1,4 +1,4 @@
-MODVER=1.2.7
+MODVER=1.2.8
 VERSQUASHED=`echo $MODVER | sed -e 's/\.//g'`
 
 mkdir -p 1_zlib
