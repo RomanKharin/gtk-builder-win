@@ -1,4 +1,4 @@
-MODVER=2.4.11
+MODVER=2.5.3
 
 mkdir -p 32_libfreetype
 cd 32_libfreetype
