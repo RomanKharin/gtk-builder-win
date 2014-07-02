@@ -1,0 +1,131 @@
+[VERSION]
+  GTK+ 3.12.2
+[BUILD_ALL_NATIVE.01_libiconv]
+  bin/iconv
+[BUILD_ALL_NATIVE.02_gettext]
+  bin/gettext
+  bin/ngettext
+[BUILD_ALL_NATIVE.11_zlib]
+  lib/pkgconfig/zlib.pc
+[BUILD_ALL_NATIVE.12_xz]
+  lib/pkgconfig/liblzma.pc
+[BUILD_ALL_NATIVE.13_libxml2]
+  lib/pkgconfig/libxml-2.0.pc
+[BUILD_ALL_NATIVE.21_libffi]
+  lib/pkgconfig/libffi.pc
+[BUILD_ALL_NATIVE.22_glib]
+  lib/pkgconfig/gio-2.0.pc
+  lib/pkgconfig/gio-unix-2.0.pc
+  lib/pkgconfig/glib-2.0.pc
+  lib/pkgconfig/gmodule-2.0.pc
+  lib/pkgconfig/gmodule-export-2.0.pc
+  lib/pkgconfig/gmodule-no-export-2.0.pc
+  lib/pkgconfig/gobject-2.0.pc
+  lib/pkgconfig/gthread-2.0.pc
+[BUILD_ALL_NATIVE.23_pkg-config]
+  bin/pkg-config
+[BUILD_ALL_NATIVE.31_libpng]
+  lib/pkgconfig/libpng.pc
+[BUILD_ALL_NATIVE.32_libfreetype]
+  lib/pkgconfig/freetype2.pc
+[BUILD_ALL_NATIVE.33_libfontconfig]
+  lib/pkgconfig/fontconfig.pc
+[BUILD_ALL_NATIVE.34_pixman]
+  lib/pkgconfig/pixman-1.pc
+[BUILD_ALL_NATIVE.35_cairo]
+  lib/pkgconfig/cairo.pc
+  lib/pkgconfig/cairo-fc.pc
+  lib/pkgconfig/cairo-ft.pc
+  lib/pkgconfig/cairo-gobject.pc
+[BUILD_ALL_NATIVE.35x_harfbuzz]
+  lib/pkgconfig/harfbuzz.pc
+[BUILD_ALL_NATIVE.36_pango]
+  lib/pkgconfig/pango.pc
+  lib/pkgconfig/pangocairo.pc
+  lib/pkgconfig/pangoft2.pc
+[BUILD_ALL_NATIVE.41_libjpeg]
+  include/jpeglib.h
+  bin/cjpeg
+  bin/djpeg
+[BUILD_ALL_NATIVE.42_libjasper]
+  include/jasper/jasper.h
+  bin/jasper
+[BUILD_ALL_NATIVE.43_libtiff]
+  lib/pkgconfig/libtiff-4.pc
+[BUILD_ALL_NATIVE.44_gdk-pixbuf]
+  lib/pkgconfig/gdk-pixbuf-2.0.pc
+[BUILD_ALL_NATIVE.51_atk]
+  lib/pkgconfig/atk.pc
+[BUILD_ALL_NATIVE.52_gtk3]
+  lib/pkgconfig/gtk+-3.0.pc
+  
+[BUILD_ALL_WIN32.01_libiconv]
+  bin/iconv.exe
+[BUILD_ALL_WIN32.02_gettext]
+  bin/gettext.exe
+  bin/ngettext.exe
+[BUILD_ALL_WIN32.11_zlib]
+  lib/pkgconfig/zlib.pc
+[BUILD_ALL_WIN32.12_xz]
+  lib/pkgconfig/liblzma.pc
+[BUILD_ALL_WIN32.13_libxml2]
+  lib/pkgconfig/libxml-2.0.pc
+[BUILD_ALL_WIN32.21_libffi]
+  lib/pkgconfig/libffi.pc
+[BUILD_ALL_WIN32.22_glib]
+  lib/pkgconfig/gio-2.0.pc
+  lib/pkgconfig/gio-windows-2.0.pc
+  lib/pkgconfig/glib-2.0.pc
+  lib/pkgconfig/gmodule-2.0.pc
+  lib/pkgconfig/gmodule-export-2.0.pc
+  lib/pkgconfig/gmodule-no-export-2.0.pc
+  lib/pkgconfig/gobject-2.0.pc
+  lib/pkgconfig/gthread-2.0.pc
+[BUILD_ALL_WIN32.23_pkg-config]
+  bin/pkg-config.exe
+[BUILD_ALL_WIN32.31_libpng]
+  lib/pkgconfig/libpng.pc
+[BUILD_ALL_WIN32.32_libfreetype]
+  lib/pkgconfig/freetype2.pc
+[BUILD_ALL_WIN32.33_libfontconfig]
+  lib/pkgconfig/fontconfig.pc
+[BUILD_ALL_WIN32.34_pixman]
+  lib/pkgconfig/pixman-1.pc
+[BUILD_ALL_WIN32.35_cairo]
+  lib/pkgconfig/cairo.pc
+  lib/pkgconfig/cairo-fc.pc
+  lib/pkgconfig/cairo-ft.pc
+  lib/pkgconfig/cairo-gobject.pc
+[BUILD_ALL_WIN32.36_pango]
+  lib/pkgconfig/pango.pc
+  lib/pkgconfig/pangocairo.pc
+  lib/pkgconfig/pangowin32.pc
+[BUILD_ALL_WIN32.41_libjpeg]
+  include/jpeglib.h
+  bin/cjpeg.exe
+  bin/djpeg.exe
+[BUILD_ALL_WIN32.42_libjasper]
+  include/jasper/jasper.h
+  bin/jasper.exe
+[BUILD_ALL_WIN32.43_libtiff]
+  lib/pkgconfig/libtiff-4.pc
+[BUILD_ALL_WIN32.44_gdk-pixbuf]
+  lib/pkgconfig/gdk-pixbuf-2.0.pc
+[BUILD_ALL_WIN32.51_atk]
+  lib/pkgconfig/atk.pc
+[BUILD_ALL_WIN32.52_gtk3]
+  lib/pkgconfig/gtk+-3.0.pc
+[BUILD_ALL_WIN32.61_libcroco]
+  lib/pkgconfig/libcroco-0.6.pc
+[BUILD_ALL_WIN32.62_librsvg]
+  lib/pkgconfig/librsvg-2.0.pc
+[BUILD_ALL_WIN32.71_icon-naming-utils]
+  share/pkgconfig/icon-naming-utils.pc
+[BUILD_ALL_WIN32.72_hicolor-icon-theme]
+  share/icons/hicolor/index.theme
+[BUILD_ALL_WIN32.73_gnome-icon-theme]
+  share/pkgconfig/gnome-icon-theme.pc
+[BUILD_ALL_WIN32.74_gnome-icon-theme-symbolic]
+  share/pkgconfig/gnome-icon-theme-symbolic.pc
+
+

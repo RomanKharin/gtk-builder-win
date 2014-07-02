@@ -1,0 +1,20 @@
+ GTK+ 3.12.2 Build System v1 (cross-linux) 
+
+ ----------------------------------------
+ (well tested on Ubuntu 12.04 i686 chroot) 
+  
+ (To customize the process, edit the "vars.sh" script and modify :
+   DISTRO = your Linux distro (ex : CentOS)
+   ARCH = i386/amd64
+   NATIVEPREFIX = where the intermediate native stack will be stored
+   WIN32PREFIX = where the final win32 stack will be stored)
+
+   First open a terminal and position yourself in this directory.
+
+1) Run "2a_Check.sh" to check system and tools.
+
+3) Run "3_PrepBuild.sh" to prepare the build directories & vars.
+
+4) Run "4_Build.sh" to build the stack !
+
+

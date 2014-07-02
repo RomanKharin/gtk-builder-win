@@ -1,0 +1,11 @@
+--- jpeg-9/jmorecfg.h	2013-08-26 19:36:16.639160840 +0200
++++ jpeg-9/jmorecfg.h	2013-08-26 19:37:31.932283596 +0200
+@@ -260,7 +260,7 @@
+ #define TRUE	1
+ #endif
+ #else
+-typedef enum { FALSE = 0, TRUE = 1 } boolean;
++typedef enum { false= 0, true= 1 } boolean;
+ #endif
+ 
+ 

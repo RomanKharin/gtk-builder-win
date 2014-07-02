@@ -1,0 +1,10 @@
+--- glib-2.0.pc	2014-06-30 08:52:33.000000000 +0000
++++ glib-2.0.pc	2014-06-30 09:00:57.454809138 +0000
+@@ -11,6 +11,6 @@ Name: GLib
+ Description: C Utility Library
+ Version: 2.40.0
+ Requires.private: 
+-Libs: -L${libdir} -lglib-2.0 
++Libs: -L${libdir} -lglib-2.0 -lrt    -liconv
+ Libs.private: -pthread -lrt    -liconv
+ Cflags: -I${includedir}/glib-2.0 -I${libdir}/glib-2.0/include 
